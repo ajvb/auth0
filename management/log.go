@@ -73,7 +73,7 @@ type Log struct {
 	Type *string `json:"type"`
 
 	// The id of the client
-	ClientID *string `json:"client_id"`
+	ClientID interface{} `json:"client_id"`
 
 	// The name of the client
 	ClientName *string `json:"client_name"`
