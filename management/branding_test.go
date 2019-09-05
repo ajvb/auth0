@@ -1,7 +1,7 @@
 package management
 
 import (
-	"gopkg.in/auth0.v1"
+	"github.com/ajvb/auth0"
 	"testing"
 )
 

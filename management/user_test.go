@@ -3,7 +3,7 @@ package management
 import (
 	"testing"
 
-	"gopkg.in/auth0.v1"
+	"github.com/ajvb/auth0"
 )
 
 func TestUser(t *testing.T) {
